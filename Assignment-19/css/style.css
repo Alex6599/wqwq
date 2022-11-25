@@ -1,0 +1,478 @@
+* {
+  margin: 0 !important;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto !important;
+}
+.title {
+  text-align: center;
+}
+.collapse .navbar-nav {
+  text-align: center;
+}
+.title h2 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: #151515;
+}
+.title p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #737373;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* ..........................common css  */
+.navbar {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+}
+.nav-item .active {
+  font-family: "Inter";
+  font-weight: 700 !important;
+  font-size: 18px;
+  line-height: 26px;
+  color: #4756df !important;
+}
+.nav-item .nav-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  margin: 0 33px !important;
+}
+.btn {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  background: #6a4df4;
+  border-radius: 10px;
+  padding: 15px 42px !important;
+  border: 1px solid #6a4df4;
+}
+
+/*.............................. bg img section  */
+#bg-img {
+  background: url(../img/Banner.png) no-repeat center;
+  background-size: cover;
+}
+#bg-img .overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+#bg-img .overlay .text {
+  padding: 293px 0 198px;
+  text-align: center;
+}
+#bg-img .overlay .text h2 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 120%;
+  width: 950px;
+  color: #ffffff;
+  margin: 0 auto !important;
+}
+#bg-img .overlay .text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 621px;
+  color: #ffffff;
+  padding: 51px 0 40px;
+  margin: 0 auto !important;
+}
+#bg-img .overlay .text a {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  background: #6a4df4;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 42px;
+  color: #ffffff;
+}
+
+/* ........................counter sec  */
+#counter {
+  padding: 171px 0 0 0;
+}
+#counter .container {
+  background: #e0fff9;
+  border-radius: 20px;
+  /* margin-top: 171px !important; */
+}
+#counter .container .main {
+  padding: 85px 51px 86px 50px !important;
+}
+
+#counter .container h3 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 120%;
+  color: #6a4df4;
+  margin-bottom: 15px !important;
+}
+#counter .container h4 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42px;
+  color: #151515;
+}
+.col-lg-8 .row .col-lg-4 .text h2 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #151515;
+  margin-bottom: 20px !important;
+}
+.col-lg-8 .row .col-lg-4 .text p {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #737373 !important;
+}
+/* ...........................service sec start  */
+#service {
+  padding: 150px 0 126px;
+}
+#service .title {
+  padding-bottom: 106px;
+}
+#service .title p {
+  width: 609px;
+  margin: 0 auto !important;
+}
+/* #service .main {
+  padding: 50px 0 103px;
+} */
+#service .service-01 {
+  text-align: center;
+  transition: 0.4s;
+  padding: 80px 49px 46px;
+  margin-bottom: 24px !important;
+}
+
+#service .service-01:hover {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+#service .service-01 .text h3 {
+  padding: 40px 0 20px;
+}
+#service .service-01 .text p {
+  width: 326px;
+}
+
+/* ........................our work sec  */
+#works {
+  background: #f3f3f3;
+  padding: 150px 0;
+}
+#works .title p {
+  width: 620px;
+  margin: 0 auto !important;
+  padding-bottom: 106px;
+}
+#works main {
+}
+#works .work {
+  border-radius: 20px;
+  background: white;
+  margin-bottom: 24px !important;
+}
+#works .work img {
+  border-radius: 20px;
+  width: 100%;
+}
+#works .work .text {
+  text-align: center;
+  padding: 30px 42px;
+}
+#works .work .text h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #151515;
+}
+#works .work .text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #737373;
+}
+/*..................... agency sec  */
+#agency {
+  padding: 150px 0 18px;
+}
+#agency .title p {
+  width: 802px;
+  margin: 0 auto !important;
+  padding-bottom: 103px !important;
+}
+#agency .agency-1 {
+  margin-bottom: 88px !important;
+}
+#agency .agency-1 h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  padding: 20px 0 10px;
+  color: #151515;
+}
+#agency .agency-1 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #737373;
+  width: 344px;
+}
+/* review sec  */
+#review {
+  padding-bottom: 227px;
+}
+#review .title {
+  padding-bottom: 130px;
+}
+#review .title p {
+  width: 620px;
+  margin: 0 auto !important;
+}
+#review .slider {
+  display: flex;
+  justify-content: space-between;
+}
+#review .slider .slide-card {
+  padding: 54px 58px 54px;
+}
+#review .slider .slide-card .cotasn {
+  opacity: 0.1;
+}
+#review .slider .active {
+  background: #f4efef;
+  border-radius: 30px;
+}
+#review .slider .active .cotasn {
+  opacity: 1;
+}
+#review .slider .slide-card p {
+  width: 307px;
+  padding-top: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b7b7b;
+}
+#review .slider .slide-card .icon {
+  display: flex;
+  padding: 20px 0 30px;
+}
+#review .slider .slide-card .icon i {
+  color: #f9bd2c;
+  margin-right: 7px !important;
+}
+#review .slider .slide-card .main {
+  display: flex;
+  align-items: center;
+}
+#review .slider .slide-card .main img {
+  margin-right: 20px !important;
+}
+#review .slider .slide-card .main .text h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: #232323;
+}
+#review .slider .slide-card .main .text h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b7b7b;
+  padding: 0 !important;
+}
+/* .........................contact sec  */
+
+#contact {
+  background: #f3f3f3;
+  padding: 150px 0;
+}
+/* left  */
+#contact .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+#contact .text h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: #151515;
+  margin-bottom: 20px !important;
+  width: 470px;
+}
+#contact .text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b7b7b;
+  width: 526px;
+  margin-bottom: 10px !important;
+}
+/* right  */
+#contact .form {
+  width: 536px;
+  background: white;
+  border-radius: 20px;
+  padding: 61px 43px;
+}
+#contact .form h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #151515;
+  margin-bottom: 30px !important;
+  text-align: center;
+}
+
+#contact .form form label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #151515;
+  margin-bottom: 10px !important;
+}
+#contact .form form input {
+  width: 100%;
+  padding: 19px 23px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #d0d0d0;
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+  margin-bottom: 20px !important;
+}
+#contact .form form input :focus {
+  border: 0;
+}
+#contact .form form .btn-01 a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  padding: 19px 147px;
+  background: #6a4df4;
+  border-radius: 10px;
+  width: 100%;
+  display: inline-block !important;
+  text-decoration: none;
+  margin-top: 10px !important;
+}
+/* ....................about sec  */
+#about {
+  padding: 150px 0 50px;
+}
+#about p {
+  width: 356px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b7b7b;
+  margin-top: 30px !important;
+}
+#about h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 40px !important;
+  color: #151515;
+}
+#about ul {
+  padding: 0 !important;
+}
+#about ul li a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #7b7b7b;
+}
+/* .............................footer  */
+#footer {
+}
+#footer p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #d0d0d0;
+  text-align: center;
+  padding: 33px 0;
+  border-top: 1px solid #e8e8e8;
+}
